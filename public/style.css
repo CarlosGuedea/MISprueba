@@ -1,0 +1,202 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Graphik', sans-serif;
+}
+
+/* Header */
+.header{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 24.5% 14.5% 14.5% 14.5% 15.5% 15.5%;
+    padding-left: 10%;
+    background-color: #016ff1;
+    font-weight: 500c;
+}
+
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+
+/* home page */
+.menu{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .menu {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+/* Nosotros */
+.nosotros{
+    margin-top: 2rem;
+    text-align:justify;
+}
+
+.nosotros-contacto{
+    margin-top: 4rem;
+}
+
+/* Paquetes */
+#TituloPromos{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Graphik', sans-serif;
+}
+
+
+.Cuenta{
+    width: 100%;
+    text-align: center;
+}
+
+.Cuenta label{
+    padding-right: 460px;
+    font-family: 'Graphik', sans-serif;
+}
+
+#lblEmail{
+    padding-right: 480px;
+}
+
+.CuentaT{
+    font-size: 30px;
+    font-family: 'Graphik', sans-serif;
+    margin-right: 120px;
+}
+
+#nombre, #email, #telefono, #fecha{
+    width: 532px;
+    margin-bottom: 10px;
+}
+
+#EnviarOrden{
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #016ff1;
+    width: 532px;
+    border: 0;
+    height: 50px;
+    font-family: 'Graphik', sans-serif;
+}
+
+#EnviarOrden:hover{
+    background-color: #2a82ee;
+}
+
+
+/* Login */
+.login-user-img{
+    max-width: 30%;
+}
+
+.login-password-img{
+    max-width: 30%;
+}
+
+.enviar{
+    color:white;
+    margin-top: 2rem;
+    background-color: #016ff1;
+    text-align: center;
+    width: 15%;
+    border: 0;
+    height: 50px;
+}
+
+.enviar:hover{
+    background-color: #2a82ee;
+}
+
+/* Sidebar */
+
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #181c25;
+    left: -200px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active{
+    left: 0px;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar ul li{
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, 1.3);
+}
+
+#sidebar .toogle-btn{
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#sidebar .toogle-btn span{
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.container.mover {
+    transform: translateX(250px);
+    transition: all 500ms linear;
+    max-width:min-content;
+}
+
+.table{
+    color: black;
+}
+
+
+/* Paginacion */
+.paginacion{
+    text-align: center;
+}
+.paginacion a{
+    color: aliceblue;
+}
+
+@media (max-width: 720px) {
+    .landing-video {
+    margin-top: -5rem;
+      width: 480px;
+      height: 480px;
+    }
+  }
+
+/* Paginas */
+.titulo-pagina{
+    margin-top: 1rem;
+}
+
+

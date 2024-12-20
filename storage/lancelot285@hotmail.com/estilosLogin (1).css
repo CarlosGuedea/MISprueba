@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container.login {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 80px auto;
+    max-width: 400px;
+    padding: 40px;
+    text-align: center;
+}
+
+.login-titulo {
+    color: #333333;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.login-user-img {
+    border-radius: 50%;
+    height: 80px;
+    margin-top: 20px;
+    width: 80px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0;
+    outline: none;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #333333;
+}
+
+.enviar {
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    outline: none;
+    padding: 12px 24px;
+    width: 100%;
+}
+
+.enviar:hover {
+    background-color: #222222;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222222;
+}

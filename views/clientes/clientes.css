@@ -1,0 +1,45 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+
+.header-container {
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffff;
+    /* border: 2px solid black; */
+    /* margin-right: 500px; */
+}
+
+.header-derecha{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    margin-left: 10rem;
+}
+
+.subtitle{
+    color: #8c8c8d;
+}
+
+
+/* DETALLES */
+
+.button{
+    background-color: #283620;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+/* Estilo para el badge de notificaciones */
+.badge {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 12px;
+    display: none; /* Ocultar inicialmente el badge */
+}
