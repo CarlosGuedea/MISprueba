@@ -6,30 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Iniciar Sesión</title>
   <link rel="stylesheet" href="/views/login/login.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input/build/css/intlTelInput.min.css">
+  
 </head>
 
-<body id="content">
-  <div class="login-container">
-    <h2>Iniciar Sesión</h2>
-    <h1>Hola mundo2</h1>
-    <div style="color:red">
-      <p> <?php error_reporting(0);
-            echo $Error; ?> </p>
+<div class="login-container">
+        <div class="column">
+            <img src="icons/MIS_LOGO.png" alt="logo mis" class="logo">
+            <p>Municipio Inteligente y Sustentable</p>
+        </div>
+
+        <div class="column-2">
+            <h2>Iniciar sesión</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" id="username" name="username" placeholder="Ingrese su usuario" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+                </div>
+                <button class="btn-sesion" type="submit">Iniciar sesión</button>
+                </form>
+                <hr>
+
+                <h5>Ingresar como ciudadano</h4>
+
+                <form action="">
+                  <input type="tel" id="phone">
+                  <div>
+                  <button class="btn-whatsapp">Ingresar con Whatsapp</button>
+                  </div>
+                  
+                </form>
+
+                <h5>O continúa con</h5>
+        </div>
     </div>
-    <form action="/login-admin" method="post">
-      <div class="form-group">
-        <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="nombre_usuario" required />
-      </div>
-      <div class="form-group">
-        <label for="contraseña">Contraseña:</label>
-        <input type="password" id="contrasena" name="contraseña" required />
-      </div>
-      <button type="submit">Ingresar</button>
-    </form>
-    <h5 style="color: gray;">-- O --</h5>
-    <a href="/registro"><button type="submit">Registrarse</button></a>
-  </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input/build/js/intlTelInput.min.js"></script>
+<script src="/views/login/login.js"></script>
 
 </html>
