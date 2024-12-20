@@ -11,7 +11,7 @@
 <body id="content">
   <div class="login-container">
     <h2>Iniciar Sesión</h2>
-    <h1>Hola mundo</h1>
+    <h1>Hola mundo2</h1>
     <div style="color:red">
       <p> <?php error_reporting(0);
             echo $Error; ?> </p>
